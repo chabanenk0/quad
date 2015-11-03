@@ -1,0 +1,17 @@
+{
+    "name": "root/quadr_eq",
+    "authors": [
+        {
+            "name": "dc",
+            "email": "chdn6026@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "QuadraticEquation\\": "src/QuadraticEquation"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^5.0"
+    }
+}
