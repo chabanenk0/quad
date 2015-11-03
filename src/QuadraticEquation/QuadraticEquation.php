@@ -46,6 +46,16 @@ class QuadraticEquation
      */
     private function getLinearRoots($a, $b)
     {
-        return -$b / $a;
+        if ($a == 0) {
+
+            
+            if ($b == 0) {
+                return ['anyRealNumber'];
+            } else {
+                return [];
+            }
+        } else {
+            return [-$b / $a];
+        }
     }
 }
